@@ -240,7 +240,7 @@ int main(int argc, char *argv[]) {
         pthread_join(client_threads[i], NULL);        
     }
     total_cpu_stop_time = clock();
-    sleep(200);
+    sleep(3);
     //system("sudo cp /proc/net/dev proc_net_dev_post.txt"); 
     printReport();
 
